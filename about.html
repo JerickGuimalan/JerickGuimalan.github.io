@@ -1,9 +1,72 @@
 <html>
 <head>
-    <title>About Us</title>
+    <title>GYMGURU</title>
+
+    <style>
+        @font-face {
+            font-family: 'BebasNeue';
+            src: url(fonts/BebasNeue.otf);
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        body {
+            font-family: roboto, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #000000;
+            padding: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            max-height: 50px;
+        }
+
+        nav {
+            display: flex;
+            font-family: 'roboto', sans-serif;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #fff;
+            margin: 0 25px;
+            font-family: 'BebasNeue', sans-serif;
+            font-size: 25px; 
+        }
+
+        img.hero-banner {
+            width: 100%;
+            height: auto;
+            display: block;
+            margin: 20px auto;
+            border-radius: 5px;
+        }
+
+        .image-container {
+            display: flex;
+            justify-content: space-between;
+            padding: 20px;
+        }
+
+        .image-container img {
+            max-width: 500px; 
+        }
+
+    </style>
 </head>
 <body>
+
     <header>
+        <img src="logo.png" alt="Logo" class="logo">
+
         <nav>
             <a href="index.html">Home</a>
             <a href="blog.html">Blog</a>
@@ -11,6 +74,8 @@
             <a href="contact.html">Contact Us</a>
         </nav>
     </header>
+
+    <img src="AboutBanner.jpg" alt="AboutBanner" class="about-banner" />
 
     <div class="content">
         <h1>About Us</h1>
