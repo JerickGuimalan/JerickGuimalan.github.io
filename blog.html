@@ -1,9 +1,55 @@
-<html>
 <head>
-    <title>Blog</title>
+    <title>GYMGURU</title>
+
+    <style>
+         @font-face {
+            font-family: 'BebasNeue';
+            src: url(fonts/BebasNeue.otf);
+            font-weight: normal;
+            font-style: normal;
+         }
+
+        body {
+            font-family: roboto, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #000000;
+            padding: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        logo {
+            max-height: 50px;
+        }
+
+        nav {
+            display: flex;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #fff;
+            margin: 0 25px;
+            font-family: 'BebasNeue', sans-serif;
+            font-size: 25px; 
+        }
+
+        p {
+            line-height: 2;
+        }
+
+    </style>
 </head>
 <body>
     <header>
+        <img src="logo.png" alt="Logo" class="logo">
+
         <nav>
             <a href="index.html">Home</a>
             <a href="blog.html">Blog</a>
