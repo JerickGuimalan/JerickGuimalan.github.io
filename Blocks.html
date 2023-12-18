@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <title>GYMGURU</title>
+
+    <style>
+        @font-face {
+            font-family: 'BebasNeue';
+            src: url(fonts/BebasNeue.otf);
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        body {
+            font-family: roboto, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #000000;
+            padding: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            max-height: 50px;
+        }
+
+        nav {
+            display: flex;
+            font-family: 'roboto', sans-serif;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #fff;
+            margin: 0 25px;
+            font-family: 'BebasNeue', sans-serif;
+            font-size: 25px; 
+        }
+
+        img.hero-banner {
+            width: 100%;
+            height: auto;
+            display: block;
+            margin: 20px auto;
+            border-radius: 5px;
+        }
+
+        .image-container {
+            display: flex;
+            justify-content: space-between;
+            padding: 20px;
+        }
+
+        .image-container img {
+            max-width: 500px; 
+        }
+
+    </style>
+</head>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        .strip {
+            height: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .top-strip {
+            background-color: #DCE0E9;
+        }
+
+        .below-strip {
+            background-color: #798292;
+        }
+
+        .two-color-block {
+            display: flex;
+        }
+
+        .left-color {
+            background-color: #385795;
+            height: 1000px;
+            width: 30%;
+        }
+
+        .right-color {
+            background-color: #4D586E;
+            height: 1000px;
+            width: 70%;
+        }
+
+        .bottom-strip {
+            background-color: #510811;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <img src="logo.png" alt="Logo" class="logo">
+
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="blog.html">Blog</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact Us</a>
+        </nav>
+    </header>
+
+    <div class="strip top-strip"></div>
+
+    <div class="strip below-strip"></div>
+
+    <div class="two-color-block">
+        <div class="strip left-color"></div>
+        <div class="strip right-color"></div>
+    </div>
+
+    <div class="strip bottom-strip"></div>
+
+</body>
+</html>
